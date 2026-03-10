@@ -1,0 +1,24 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_modify %}
+
+{% block extrastyle %}{{ block.super }}
+<style>
+    .submit-row-with-cancel .submit-row {
+        background: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+        min-height: 0;
+    }
+    .submit-row-with-cancel a.admin-cancel-link {
+        text-decoration: none;
+    }
+</style>
+{% endblock %}
+
+{% block submit_buttons_bottom %}
+<div class="submit-row submit-row-with-cancel">
+    {% submit_row %}
+    <a href="{{ cancel_url }}" role="button" class="closelink admin-cancel-link">{% translate "Cancel" %}</a>
+</div>
+{% endblock %}
