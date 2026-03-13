@@ -47,7 +47,10 @@ CW1/
 │
 ├── manage.py                     # Django management script
 ├── requirements.txt              # Python dependencies
-└── README.md                     # Project documentation
+├── README.md                     # Project documentation
+├── api-documentation.pdf         # API documentation PDF
+└── Web.pptx                      # Presentation slides
+
 ```
 
 ## Installation
@@ -221,11 +224,15 @@ python manage.py test
 
 ## API Documentation
 
-Full API specification, request/response examples, and field details are provided in **api-documentation.pdf** in the project root.
+The full API specification, including endpoints, request/response examples, and field descriptions, is available in **api_documentation.pdf** in the project root.
 
-## Author / Coursework Context
+The documentation was written in Markdown and exported to PDF for submission.
+
+## Presentation Slides
+
+The presentation slides for the project can be found in **Web.pptx** in the project root of this repository.
+
+## Author
 
 Faris N. Alqawasmi
 Student ID: 201766141
-Module: COMP3011 – Web Services and Web Data
-University of Leeds
