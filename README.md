@@ -48,8 +48,7 @@ CW1/
 ├── manage.py                     # Django management script
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
-├── api-documentation.pdf         # API documentation PDF
-└── Web.pptx                      # Presentation slides
+└── api-documentation.pdf         # API documentation PDF
 
 ```
 
@@ -228,9 +227,6 @@ The full API specification, including endpoints, request/response examples, and 
 
 The documentation was written in Markdown and exported to PDF for submission.
 
-## Presentation Slides
-
-The presentation slides for the project can be found in **Web.pptx** in the project root of this repository.
 
 ## Author
 
